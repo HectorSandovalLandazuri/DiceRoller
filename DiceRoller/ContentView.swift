@@ -8,15 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    var game = Game()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        TabView {
+            GameView()
+                .tabItem {
+                    Image(systemName: "gamecontroller.fill")
+                    Text("Play")
+                }
+            ResultsView()
+                .tabItem {
+                    Image(systemName: "chart.bar.fill")
+                    Text("Results")
+                }
+        }.environmentObject(game)
     }
+
+
+   
 }
 
 #Preview {

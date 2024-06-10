@@ -11,6 +11,9 @@
 		A260EE8F2C025FA40061DE40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A260EE8E2C025FA40061DE40 /* ContentView.swift */; };
 		A260EE912C025FA60061DE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A260EE902C025FA60061DE40 /* Assets.xcassets */; };
 		A260EE942C025FA60061DE40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A260EE932C025FA60061DE40 /* Preview Assets.xcassets */; };
+		A2CF42392C1772E80029D1AB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF42382C1772E80029D1AB /* Game.swift */; };
+		A2CF423D2C1773740029D1AB /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF423C2C1773740029D1AB /* GameView.swift */; };
+		A2CF423F2C1773BE0029D1AB /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2CF423E2C1773BE0029D1AB /* ResultsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		A260EE8E2C025FA40061DE40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A260EE902C025FA60061DE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A260EE932C025FA60061DE40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2CF42382C1772E80029D1AB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A2CF423C2C1773740029D1AB /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		A2CF423E2C1773BE0029D1AB /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			children = (
 				A260EE8C2C025FA40061DE40 /* DiceRollerApp.swift */,
 				A260EE8E2C025FA40061DE40 /* ContentView.swift */,
+				A2CF423E2C1773BE0029D1AB /* ResultsView.swift */,
 				A260EE902C025FA60061DE40 /* Assets.xcassets */,
 				A260EE922C025FA60061DE40 /* Preview Content */,
+				A2CF42382C1772E80029D1AB /* Game.swift */,
+				A2CF423C2C1773740029D1AB /* GameView.swift */,
 			);
 			path = DiceRoller;
 			sourceTree = "<group>";
@@ -138,6 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A260EE8F2C025FA40061DE40 /* ContentView.swift in Sources */,
+				A2CF42392C1772E80029D1AB /* Game.swift in Sources */,
+				A2CF423D2C1773740029D1AB /* GameView.swift in Sources */,
+				A2CF423F2C1773BE0029D1AB /* ResultsView.swift in Sources */,
 				A260EE8D2C025FA40061DE40 /* DiceRollerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
